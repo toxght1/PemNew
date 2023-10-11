@@ -7,12 +7,8 @@
 	wait(1746 - (1344 + 400));
 	print("[4/4] Succesfully Loaded");
 
-   warn("██████╗░░█████╗░░█████╗░███╗░░░███╗███████╗██████╗░░░░░█████╗░░█████╗░.")
-   warn("██╔══██╗██╔══██╗██╔══██╗████╗░████║██╔════╝██╔══██╗░░░██╔══██╗██╔══██╗.")
-   warn("██║░░██║██║░░██║██║░░██║██╔████╔██║█████╗░░██║░░██║░░░██║░░╚═╝██║░░╚═╝.")
-   warn("██║░░██║██║░░██║██║░░██║██║╚██╔╝██║██╔══╝░░██║░░██║░░░██║░░██╗██║░░██╗.")
-   warn("██████╔╝╚█████╔╝╚█████╔╝██║░╚═╝░██║███████╗██████╔╝██╗╚█████╔╝╚█████╔╝.")
-   warn("╚═════╝░░╚════╝░░╚════╝░╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═╝░╚════╝░░╚════╝░.")
+
+   warn("PEMX TOXIC")
 
 --// UI \\--
 
@@ -23,7 +19,7 @@ local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-  Title = "☢️Doomed.cc☢️ (Legacy.cc Leak)",
+  Title = "☢️SPRA_TOXIC☢️ (SORA)",
   Center = true,
   AutoShow = true,
   TabPadding = 8,
@@ -2556,7 +2552,7 @@ game:GetService("Players").PlayerRemoving:Connect(updatePlayerCount)
 updatePlayerCount()
 MenuGroup:AddDivider()
 MenuGroup:AddLabel('Credits', true)
-MenuGroup:AddLabel('Made by ☢️Doomed.cc☢️', true)
+MenuGroup:AddLabel('Made by ☢️sora', true)
 Library.ToggleKeybind = Options.MenuKeybind
 
 ThemeManager:SetLibrary(Library)
@@ -2566,15 +2562,15 @@ SaveManager:IgnoreThemeSettings()
 
 SaveManager:SetIgnoreIndexes({ 'MenuKeybind' })
 
-ThemeManager:SetFolder('☢️Doomed.cc☢️')
-SaveManager:SetFolder('☢️Doomed.cc☢️/TRIDENT SURVIVAL')
+ThemeManager:SetFolder('☢️sora.cc☢️')
+SaveManager:SetFolder('☢️sora.cc☢️/TRIDENT SURVIVAL')
 
 SaveManager:BuildConfigSection(Tabs['UI Settings'])
 
 ThemeManager:ApplyToTab(Tabs['UI Settings'])
 
 SaveManager:LoadAutoloadConfig()
-wait(0)Library:Notify("Thanks for using ☢️Doomed.cc☢️")
+wait(0)Library:Notify("Thanks for using ☢️Sora.cc☢️")
 wait(0)Library:Notify("Status : 🟢Undetected")
 
 
