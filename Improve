@@ -19,7 +19,7 @@ local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-  Title = "☢️SPRA_TOXIC☢️ (SORA)",
+  Title = "☢️SORA_TOXIC☢️ (SORA)",
   Center = true,
   AutoShow = true,
   TabPadding = 8,
